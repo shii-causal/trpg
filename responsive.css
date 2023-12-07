@@ -144,6 +144,11 @@
     font-size: 17px;
   }
 
+  .regulation {
+    border-top: 2px solid aliceblue;
+    border-bottom: 2px solid aliceblue;
+  }
+
   .regulation p {
     font-size: 13px;
   }
