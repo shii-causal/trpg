@@ -1,0 +1,216 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+.top-wrapper {
+  background-image: url(./F8__LVAaEAAxJCW.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  padding: 25vh 0;
+
+  color: rgb(255, 232, 228);
+}
+
+.top-wrapper p {
+  text-align: center;
+  margin: 3vh 0;
+}
+
+.logo {
+  height: 50%;
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+.middle-wrapper {
+  background-image: url(./sky_gamelike06.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: rgb(10, 1, 1);
+  height: 1010px;
+
+  position: relative;
+}
+
+.opacity {
+  height: 1010px;
+  background-color: rgba(255, 232, 195, 0.6);
+}
+
+.middle-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.outline {
+  padding: 50px 1vw;
+}
+
+.outline h2 {
+  font-weight: 600;
+}
+
+.chapter-img {
+  display: none;
+}
+
+.scenario-img {
+  padding-left: 1vw;
+}
+
+.scenario-img img {
+  border: 9px solid white;
+  width: 30vw;
+}
+
+.gate {
+  margin-top: 25%;
+  position: relative;
+  z-index: 30;
+  transform: rotate(16deg);
+}
+
+.classroom {
+  position: relative;
+  z-index: 20;
+  transform: rotate(-5deg);
+}
+
+.city {
+  position: relative;
+  z-index: 10;
+  transform: rotate(14deg);
+}
+
+.park {
+  position: relative;
+  z-index: 5;
+  transform: rotate(-10deg);
+  display: none;
+}
+
+
+.bottom-wrapper {
+  background-image: url(./snowy-mountains_night01.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: aliceblue;
+}
+
+.bottom-opacity {
+  background-color: rgba(31, 34, 36, 0.6);
+  padding: 100px 0;
+  text-align: center;
+}
+
+.information {
+  width: 60%;
+}
+
+.title {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.regulation {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  border-top: 3px solid aliceblue;
+  border-bottom: 3px solid aliceblue;
+  padding: 30px 0;
+}
+
+.regulation p {
+  width: 50%;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.explain {
+  padding-left: 23%;
+}
+
+.creater {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: 5px auto 50px auto;
+}
+
+.creater p {
+  width: 33%;
+  font-size: 16px;
+}
+
+.item1 {
+  order: 1;
+}
+
+.item2 {
+  order: 4;
+}
+
+.item3 {
+  order: 2;
+}
+
+.item4 {
+  order: 5;
+}
+
+.item5 {
+  order: 3;
+}
+
+.item6 {
+  order: 6;
+}
+
+.licence {
+  color: rgb(184, 188, 191);
+  font-size: 16px;
+}
+
+
+footer {
+  background-color: rgb(5, 5, 51);
+  text-align: center;
+}
+
+.circle {
+  color: white;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+.circle:hover {
+  color: rgb(201, 234, 254);
+}

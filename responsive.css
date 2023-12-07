@@ -1,0 +1,243 @@
+@media (max-width: 1180px) {
+
+  .creater {
+    width: 70%;
+  }
+
+  .licence {
+    font-size: 16px;
+  }
+
+}
+
+
+@media (max-width: 1100px) {
+
+  .park {
+    display: block;
+  }
+
+}
+
+
+@media (max-width: 1000px) {
+
+  body {
+    font-size: 15px;
+  }
+
+  .top-wrapper {
+    padding: 30vh 0;
+  }
+
+  .middle-wrapper, .opacity {
+    height: 850px;
+  }
+
+  .outline {
+    padding: 50px 0 50px 4vw;
+  }
+
+  .outline h1 {
+    font-size: 25px;
+  }
+
+  .outline h2 {
+    font-size: 19px;
+  }
+
+  .scenario-img {
+    margin-left: 2vw;
+  }
+
+  .park {
+    display: none;
+  }
+
+  .title {
+    font-size: 25px;
+  }
+
+  .creater {
+    width: 80%;
+  }
+
+  .creater p {
+    font-size: 14px;
+  }
+
+  .licence {
+    font-size: 12px;
+  }
+
+  .circle {
+    font-size: 14px;
+  }
+
+}
+
+
+@media (max-width: 800px) {
+
+  .park {
+    display: block;
+  }
+
+  .creater {
+    width: 90%;
+  }
+
+  .licence {
+    font-size: 10px;
+  }
+
+}
+
+
+@media (max-width: 670px) {
+
+  body {
+    font-size: 15px;
+  }
+
+  .top-wrapper {
+    padding: 35vh 0;
+  }
+
+  .logo {
+    width: 60%;
+    height: 60%;
+  }
+
+  .middle-wrapper {
+    height: 1200px;
+  }
+
+  .opacity {
+    height: 1200px;
+  }
+
+  .chapter-img {
+    display: flex;
+    margin: 10px 5vw 15px 5vw;
+  }
+
+  .chapter-img img {
+    border: 9px solid white;
+    width: 40vw;
+    flex: auto;
+  }
+
+  .gate {
+    margin-top: 0;
+  }
+
+  .city {
+    transform: rotate(5deg);
+  }
+
+  .scenario-img {
+    display: none;
+  }
+
+  .title {
+    font-size: 17px;
+  }
+
+  .regulation p {
+    font-size: 13px;
+  }
+
+  .explain {
+    padding-left: 10%;
+  }
+
+  .creater {
+    width: 95%;
+  }
+
+  .creater p {
+    font-size: 10px;
+  }
+
+  .licence {
+    font-size: 7px;
+  }
+
+  .circle {
+    font-size: 10px;
+  }
+
+}
+
+
+@media (max-width: 440px) {
+
+  body {
+    font-size: 10px;
+  }
+
+  .middle-wrapper, .opacity {
+    height: 750px;
+  }
+
+  .outline {
+    padding: 25px 1vw;
+  }
+
+  .outline h1 {
+    font-size: 19px;
+  }
+
+  .outline h2 {
+    font-size: 14px;
+  }
+
+  .chapter-img {
+    margin: 5px 5vw 10px 5vw;
+  }
+
+  .title {
+    font-size: 12px;
+  }
+
+  .regulation p {
+    font-size: 10px;
+  }
+
+  .creater p {
+    font-size: 7px;
+  }
+  
+  .licence {
+    font-size: 5px;
+  }
+
+  .circle {
+    font-size: 7px;
+  }
+
+}
+
+
+
+
+@media (min-width: 1441px) {
+
+  .top-wrapper {
+    padding: 40vh 0;
+  }
+
+  .middle-wrapper, .opacity {
+    height: 1400px;
+  }
+
+  .outline {
+    padding: 25px 0;
+  }
+
+  .scenario-img {
+    padding-left: 2vw;
+  }
+
+}
