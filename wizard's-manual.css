@@ -13,7 +13,12 @@ a {
 }
 
 img {
-  pointer-events: none;
+  /*スマホの長押し禁止*/
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-touch-callout: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
 
