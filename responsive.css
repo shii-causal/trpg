@@ -213,6 +213,12 @@
   .creater p {
     font-size: 7px;
   }
+
+  .btn {
+    font-size: 9px;
+    padding: 3px 5px;
+    margin: 20px;
+  }
   
   .licence {
     font-size: 5px;
