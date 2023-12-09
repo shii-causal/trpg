@@ -201,6 +201,21 @@ img {
   order: 6;
 }
 
+.btn {
+  color: aliceblue;
+  background-color: rgba(5, 5, 51, 0.6);
+  border: 1px solid aliceblue;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 30px;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: rgb(5, 5, 51);
+  color: rgb(201, 234, 254);
+}
+
 .licence {
   color: rgb(184, 188, 191);
   font-size: 16px;
